@@ -1,0 +1,47 @@
+2025-02-17 20:52:43,744 [DEBUG]: 
+Running with the following configs:
+	city_name : Toro
+	batch_size : 8
+	divide_index : 0
+	d_intermediate : 256
+	d_model : 128
+	dynamic_training : False
+	n_layer : 2
+	ssm_layer : Mamba1
+	dropout : 0.399
+	num_heads : 8
+	norm_epsilon : 1e-06
+	rms_norm : False
+	residual_in_fp32 : True
+	fused_add_norm : False
+	conv_dim : 4
+	expand : 3
+	tem_depth : 5
+	p_dropout : 0.4
+	n_poiCat : 7
+	n_traj_len : 14
+	d_trend_embed : 128
+	d_trend_vec : 256
+	lr_AE : 0.001
+	optimizer : adam
+	lr_Gen : 0.01
+	lr_Enc : 0.01
+	lr_RG : 0.002
+	epochs : 20
+	stu_epochs : 50
+	KD_temp : 10
+	KD_alpha : 0.375
+	Multi_alpha : 0.1
+	save_dir : ./saved_models
+	save_epochs : 5
+	early_stop : True
+	patience : 10
+	resume : False
+	resume_path : ./saved_models/model_best.pt
+	log_step : 20
+	cuda : True
+	config_file : ./config_KD_BiMamba.json
+	seed : 1234
+
+
+2025-02-17 20:52:43,745 [DEBUG]: Config saved to file ./config_KD_BiMamba.json
